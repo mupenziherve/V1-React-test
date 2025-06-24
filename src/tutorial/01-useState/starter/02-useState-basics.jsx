@@ -9,10 +9,7 @@ const UseStateBasics = () => {
 
   const [count, setCount] = useState(0);
 
-  const Decrement = () =>{
-    setCount(count - 1);
 
-  };
     const Increament = () =>{
       setCount(count + 1);
   
@@ -21,10 +18,12 @@ const UseStateBasics = () => {
 
   return(
   <div>
-    <button type="button" className="btn" onClick={Decrement} >Decrement</button>
+   
 
     <h4>You clicked<h1>{count} </h1> times</h4>
     <button type="button" className="btn" onClick={Increament} >Increment</button>
+    <h1></h1>
+    
 
     </div>
     );
