@@ -9,7 +9,7 @@ const UseStateObject = () => {
   })
 
   const displayPerson = () => {
-    setPerson({name:"john", age:28, hobby: "skatting" })
+    setPerson({...person, name:"lucky" })
 
   }
 
