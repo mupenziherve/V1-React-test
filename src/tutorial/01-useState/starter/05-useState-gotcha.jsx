@@ -7,7 +7,7 @@ const UseStateGotcha = () => {
     setTimeout(() => { 
       console.log('clicked the button');
       setValue((currentState) => {
-        
+
       })
       setValue(value + 1);
        },3000);
@@ -15,7 +15,9 @@ const UseStateGotcha = () => {
   };
   return <div><h2>{value}</h2>
   <button type="button" className="btn" onClick={handleClick}>Increase</button>
+  <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias est necessitatibus dolore modi cum ipsam corporis fugit aliquid ut! Esse, animi. Culpa alias sapiente illo nihil aperiam nulla mollitia. Fugit?</h1>
   </div>
+  
 };
 
 export default UseStateGotcha;
